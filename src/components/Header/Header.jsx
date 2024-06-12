@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import favicon from '../../assets/vloreicon.png';
+import favicon from '../../assets/vwikiicon.png';
 
 const Header = () => {
   const navigate = useNavigate();

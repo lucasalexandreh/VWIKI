@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
-  base: '/VWIKI/',
+  base: '/',
   plugins: [react()],
   build: {
     outDir: 'dist',
@@ -11,7 +11,7 @@ export default defineConfig({
       {
         src: './src/assets/vloreicon.png',
         type: 'image/png',
-        filename: 'vloreicon.png',
+        filename: 'vwikiicon.png',
       },
     ],
   },
